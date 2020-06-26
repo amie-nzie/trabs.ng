@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+
+	<meta charset="utf-8">
+	<meta name="viewport" content = "width=device-width, initial-scale=1">
+	<title>ABC Transport | ...your Passport to Service</title>
+
+	<!---Favicon-->
+ 	<link rel="icon" href="<?php echo base_url(); ?>dist/front_end/img/icons/favicon.jpg" type="image/png">
+
+ 	<link rel="stylesheet" type="text/css" href="plugins/bootstrap-4.5.0/css/bootstrap.css">
+ 	<link rel="stylesheet" type="text/css" href="plugins/fontawesome/css/all.min.css">
+
+ 	<!--Import materialize.css-->
+      <link type="text/css" rel="stylesheet" href="plugins/materialize/css/materialize.min.css"  media="screen,projection"/>
+ 	<!----Custom Styles ----->
+ 	<link rel="stylesheet" type="text/css" href="css/styles.css">
+</head>
+<body>
+
+	<header class = "" style = "height: 80vh; background: url('https://www.transportday.com.ng/wp-content/uploads/2017/11/ABC-BAW-1.jpg'); background-size: cover; background-position: center">
+		
+		<div class = "overlay" style = "height: 100%">
+			
+			<!----Navigation Bar--->
+
+		<nav style = "background-color: rgb(0, 0, 0, 0.2)" class = "shadow p-3" style="">
+
+			<div class = "p-2 container-fluid">
+
+				<div class = "row">
+					<div class= "col-4">
+						<a id = "header_logo" href=""><img class= "" width = "300px" height = "100px" src="img/abclogo.png"></a>
+					</div>
+
+					<div class = "text-right col-8">
+						<div class = "">
+							<a href="./terminals.html" class = "d-lg-inline d-sm-none d-md-inline nav_links">BOOK A TICKET</a>
+							<a href="" class = "d-lg-inline d-md-inline d-sm-none nav_links">RESERVATIONS</a>
+							<a href="" class = "d-lg-inline d-sm-none d-md-inline nav_links">LINES</a>
+							<div class="d-inline-block dropdown">
+  								<a href = "" class="nav_links dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">ABOUT US
+  								</a>
+  								<div class="rounded-0 dropdown-menu" aria-labelledby="dropdownMenuButton">
+    								<a class="dropdown-item" href="#"><i class = "fas fa-question-circle mr-2"></i>FAQ</a>
+    								<a class="dropdown-item" href="#"><i class = "fas fa-tags mr-2"></i>Tickets Pricing</a>
+    								<a class="dropdown-item" href="#"><i class = "fas fa-map-marker-alt mr-2"></i>Bus Tracker</a>
+  								</div>
+							</div>
+							
+							<a href="" class = "nav_links mr-3 rounded-0 ">CONTACT US</a>
+						</div>
+					</div>
+				
+				</div>
+				
+			</div>
+			
+		</nav>
+
+		<!-----Navigation Bar---->
+
+
+
+
+
+		<!-----Carousel----->
+
+		<!-- <div class= "mt-5">
+
+			<h3 class = "px-3 text-white font-weight-bold text-center">Book Your Tickets</h3>
+
+
+			<div class = "w-75 m-auto">
+				<form>
+  
+  <div class="form-row justify-content-center">
+    <div class="form-group col-md-7">
+      <h5 for="inputCity" class = "font-weight-bold text-warning">FROM</h5>
+      <select class = "my_select">
+      	<option>Please Choose...</option>
+      	<option>LAGOS</option>
+      	<option>ABUJA</option>
+      	<option>IBADAN</option>
+      	<option>PORT HARCOURT</option>
+      </select>
+    </div>
+    
+  </div>
+
+  <div class = "form-row justify-content-center">
+
+  	<div class="form-group col-md-7">
+      <h5 for="inputCity" class = "font-weight-bold text-warning">TO</h5>
+      <select class = "my_select">
+      	<option>Please Choose...</option>
+      	<option>LAGOS</option>
+      	<option>ABUJA</option>
+      	<option>IBADAN</option>
+      	<option>PORT HARCOURT</option>
+      </select>
+    </div>
+  	
+  </div>
+
+  <div class = "form-row justify-content-center">
+
+  	<div class="form-group col-md-7">
+      <button type="" class="d-block w-100 btn bg-warning font-weight-bold fa-2x">BOOK NOW</button>
+    </div>
+  	
+  </div>
+  
+</form>
+			</div>
+		</div> -->
+
+		<!----Carousel----->
+
+		</div>
+	</header>
+
+
+	<section>
+		
+		<div class = "pt-5 container">
+			<div class = "row">
+
+				<div class = "text-center mb-5 col-12">
+					<h4 class = "font-weight-bold">Popular Terminals</h4>
+					
+				</div>
+
+				<div class = "col-12">
+
+					<ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+  <li class="nav-item">
+    <a class="nav-link active" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true">LAGOS</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab" aria-controls="pills-profile" aria-selected="false">ABUJA</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" id="pills-contact-tab" data-toggle="pill" href="#pills-contact" role="tab" aria-controls="pills-contact" aria-selected="false">PORT-HARCOURT</a>
+  </li>
+</ul>
+<div class="tab-content" id="pills-tabContent">
+  <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+  	
+  	<div class = "row">
+
+  		<div class = "p-0 col-sm-12 col-md-4">
+					
+					<div class="row">
+    					<div class="col s12 m7">
+      						<div class="card">
+        						<div class="card-image">
+          							<img src="img/bus_2.jpg">
+          							<span style = "background: rgb(0, 0, 0, 0.5)" class="shadow card-title">Ikotun-Egbe</span>
+        						</div>
+        						<div class="card-content">
+          							<p>Bus plying this routes would normally stop over along Ikone road to move goods and passengers.</p>
+        						</div>
+        						<div class="card-action">
+          							<a href="#">View Routes</a>
+        						</div>
+      						</div>
+    					</div>
+  					</div>
+
+				</div>
+
+	<div class = "p-0 col-sm-12 col-md-4">
+					
+					<div class="row">
+    					<div class="col s12 m7">
+      						<div class="card">
+        						<div class="card-image">
+          							<img src="img/bus_2.jpg">
+          							<span style = "background: rgb(0, 0, 0, 0.5)" class="shadow card-title">Oshodi</span>
+        						</div>
+        						<div class="card-content">
+          							<p>Bus plying this routes would normally stop over along Ikone road to move goods and passengers.</p>
+        						</div>
+        						<div class="card-action">
+          							<a href="#">View Routes</a>
+        						</div>
+      						</div>
+    					</div>
+  					</div>
+
+				</div>
+
+				<div class = "p-0 col-sm-12 col-md-4">
+					
+					<div class="row">
+    					<div class="col s12 m7">
+      						<div class="card">
+        						<div class="card-image">
+          							<img src="img/bus_2.jpg">
+          							<span style = "background: rgb(0, 0, 0, 0.5)" class="shadow card-title">Abule Egba</span>
+        						</div>
+        						<div class="card-content">
+          							<p>Bus plying this routes would normally stop over along Ikone road to move goods and passengers.</p>
+        						</div>
+        						<div class="card-action">
+          							<a href="#">View Routes</a>
+        						</div>
+      						</div>
+    					</div>
+  					</div>
+
+				</div>
+  		
+  	</div>
+  </div>
+  <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+  	
+
+  	<div class = "row">
+
+  		<div class = "p-0 col-sm-12 col-md-4">
+					
+					<div class="row">
+    					<div class="col s12 m7">
+      						<div class="card">
+        						<div class="card-image">
+          							<img src="img/bus_3.jpg">
+          							<span style = "background: rgb(0, 0, 0, 0.5)" class="shadow card-title">Kubwa</span>
+        						</div>
+        						<div class="card-content">
+          							<p>Bus plying this routes would normally stop over along Ikone road to move goods and passengers.</p>
+        						</div>
+        						<div class="card-action">
+          							<a href="#">View Routes</a>
+        						</div>
+      						</div>
+    					</div>
+  					</div>
+
+				</div>
+
+	<div class = "p-0 col-sm-12 col-md-4">
+					
+					<div class="row">
+    					<div class="col s12 m7">
+      						<div class="card">
+        						<div class="card-image">
+          							<img src="img/bus_3.jpg">
+          							<span style = "background: rgb(0, 0, 0, 0.5)" class="shadow card-title">Suleja</span>
+        						</div>
+        						<div class="card-content">
+          							<p>Bus plying this routes would normally stop over along Ikone road to move goods and passengers.</p>
+        						</div>
+        						<div class="card-action">
+          							<a href="#">View Routes</a>
+        						</div>
+      						</div>
+    					</div>
+  					</div>
+
+				</div>
+  		
+  	</div>
+  		
+
+  </div>
+  <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
+  	
+  	<div class="row">
+
+  		<div class = "p-0 col-sm-12 col-md-4">
+					
+					<div class="row">
+    					<div class="col s12 m7">
+      						<div class="card">
+        						<div class="card-image">
+          							<img src="img/bus_3.jpg">
+          							<span style = "background: rgb(0, 0, 0, 0.5)" class="shadow card-title">Allen Way</span>
+        						</div>
+        						<div class="card-content">
+          							<p>Bus plying this routes would normally stop over along Ikone road to move goods and passengers.</p>
+        						</div>
+        						<div class="card-action">
+          							<a href="#">View Routes</a>
+        						</div>
+      						</div>
+    					</div>
+  					</div>
+
+				</div>
+
+	<div class = "p-0 col-sm-12 col-md-4">
+					
+					<div class="row">
+    					<div class="col s12 m7">
+      						<div class="card">
+        						<div class="card-image">
+          							<img src="img/bus_3.jpg">
+          							<span style = "background: rgb(0, 0, 0, 0.5)" class="shadow card-title">Rock City</span>
+        						</div>
+        						<div class="card-content">
+          							<p>Bus plying this routes would normally stop over along Ikone road to move goods and passengers.</p>
+        						</div>
+        						<div class="card-action">
+          							<a href="#">View Routes</a>
+        						</div>
+      						</div>
+    					</div>
+  					</div>
+
+				</div>
+  		
+  	</div>
+  </div>
+</div>
+					
+				</div>
+				
+			</div>
+			
+		</div>
+	</section>
+
+
+
+	<section class = "">
+		
+		<div style = "background: url('img/bus_4.jpg'); background-size: cover; background-position: center" class = "mt-5 p-5 container-fluid">
+			<div style = "background: rgb(0, 0, 0, 0.5)" class = "p-5 row">
+				<div class = "col-md-6">
+					
+					<h3 class="text-white font-weight-bold">ABOUT OUR<br>COMPANY</h3>
+
+				</div>
+
+				<div class = "text-white col-sm-12 col-md-6">
+					
+					<p class = "">We are an experienced Bus Transportation Operator been in business since 1993 and with cureently expanding fleet of operational vehicles to provide more transportation options.</p>
+
+					<p class = "mb-0">Travel with ease and comfort with us. Obtain tickets at your own leisure. Your comfort is guaranteed and assured in taking you to your destination. It is a kept promise!</p>
+					<div class="text-center"><a href="#" class="btn btn-secondary rounded-0">Read More</a></div>
+				</div>
+				
+			</div>
+			
+		</div>
+	</section>
+
+
+	<footer class = "text-white p-5" style = "background: rgb(20, 20, 20)">
+
+		<div class = "container-fluid py-2">
+			<div class= "row">
+
+				<div class="col-sm-12">
+					<a id = "header_logo" href=""><img class= "" width = "100px" height = "75px" src="img/abclogo.png"> ABC Transport Company</a>
+					<p class = "small mt-4">&copy; 2020 All rights reserved | Trabs&trade; for ABC Transport Corp</p>
+				</div>
+				
+			</div>
+			
+		</div>
+	</footer>
+
+
+	<script type="text/javascript" src = "plugins/jquery/jquery_3.5.js"></script>
+	<script type="text/javascript" src = "plugins/bootstrap-4.5.0/js/bootstrap.bundle.js"></script>
+	<script type="text/javascript" src = "plugins/bootstrap-4.5.0/js/bootstrap.js"></script>
+
+	<!--JavaScript at end of body for optimized loading-->
+    <script type="text/javascript" src="plugins/materialize/js/materialize.min.js"></script>
+
+
+	<script type="text/javascript">
+		
+		$(".dropdown-toggle").click();
+
+		$('select').formSelect();
+	</script>
+
+
+</body>
+</html>

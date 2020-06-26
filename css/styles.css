@@ -1,0 +1,129 @@
+
+
+#header_logo {
+	color: white;
+	font-size: 1.4rem;
+	font-family: "calibri";
+}
+
+#header_logo:hover {
+	text-decoration: none
+}
+
+.nav_links {
+	padding: 20px;
+	color: white;
+}
+
+.nav_links:hover {
+	color: #1DA1F2;
+	text-decoration: none
+}
+
+.overlay {
+	background: rgba(0, 0, 0, 0.5);
+}
+
+.login_btn {
+	
+	background: #1DA1F2;
+	color: white;
+}
+
+.login_btn:hover, .sign_up_btn:hover {
+	background: #6FB6EF;
+	color: white;
+}
+
+.sign_up_btn {
+	border: 2px solid white;
+	color: white;
+}
+
+.sign_up_btn:hover {
+	border: 2px solid #6FB6EF;
+}
+
+.start_more_btn {
+	border-radius: 2345678998765px;
+	padding: 10px 50px;
+	text-transform: uppercase;
+	font-weight: bolder;
+	background: #1DA1F2;
+	color: white;
+}
+
+.start_more_btn:hover {
+	background: #6FB6EF;
+	color: white;
+	text-decoration: none
+}
+
+.learn_more_btn {
+	border: 2px solid white;
+	padding: 10px 50px;
+	border-radius: 2345678998765px;
+	text-transform: uppercase;
+	color: white;
+	font-weight: bolder
+}
+
+.learn_more_btn:hover {
+	background: #1DA1F2;
+	color: white;
+	text-decoration: none;
+	border: 2px solid #1DA1F2;
+}
+
+.img_header {
+	height: 220px;
+	background-size: cover;
+	background-position: center
+}
+
+.bus_company_btn {
+	background: #1DA1F2;
+	color: white;
+	border-radius: 23456789098765px;
+}
+
+.bus_company_btn:hover {
+	background: #6FB6EF;
+	text-decoration: none;
+	color: white;
+}
+
+.text_accent {
+	color: #1DA1F2;
+}
+
+.select-dropdown {
+	color: rgb(75, 108, 156);
+}
+
+
+
+@media screen and (max-width: 575px)	{
+
+	.d-sm-none {
+		display: none;
+	}
+}
+
+
+@media screen and (max-width: 767px)	{
+
+	header {
+		height: 100vh !important;
+	}
+
+	.start_more_btn, .learn_more_btn {
+
+		padding: 10px 20px;
+	}
+
+	#header_logo {
+		font-size: 0.9rem;
+		width: 10px;
+	}
+}

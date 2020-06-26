@@ -1,0 +1,29 @@
+#######
+
+For Demo purpose only
+
+By Joseph Olawale Bamidele
+
+for the TransB Bus Ticketing Service
+
+June 17 2020
+
+
+#######
+
+
+#######
+
+No permission is given to be shared for commercial purpose except for demonstrations and exhibitions.
+Author's name should be properly cited as named above.
+
+#######
+
+
+#######
+
+
+It is important not to overlook this file. PLD DO NOT DELETE!!!
+Deleting this file nulls the agreement made on the purpose of providing this software demonstration.
+
+#######
